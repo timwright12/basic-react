@@ -1,4 +1,4 @@
-# React Barebones
+# React Basic
 
 Commands:
 
