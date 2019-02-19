@@ -1,0 +1,16 @@
+body {
+	background: var( --c-base );
+	color: var( --c-primary );
+	font-family: Raleway, sans-serif;
+}
+
+h1 {
+	font-size: 2.25rem;
+	margin: 0 0 1.25rem;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1rem;
+	padding: 0;
+}

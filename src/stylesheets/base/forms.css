@@ -1,0 +1,17 @@
+.form__input {
+	border: 1px solid #ccc;
+	padding: .5em;
+}
+
+.form__label {
+	color: #999;
+	display: block;
+}
+
+.form__button {
+	background: red;
+	border: 1px solid red;
+	color: white;
+	cursor: pointer;
+	padding: .5em 1em;
+}

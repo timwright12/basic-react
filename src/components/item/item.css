@@ -1,0 +1,15 @@
+.item {
+	outline: 1px solid red;
+}
+
+.item__summary {
+	cursor: pointer;
+}
+
+.item__panel {
+
+}
+
+.item__panel {
+
+}
