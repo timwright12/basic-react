@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import Icon from '../icon/icon';
 
 import './header.css';
 
@@ -9,7 +8,6 @@ const Header = ( props ) => (
 		<h1>
 			<Link to='/'>{props.name}</Link>
 		</h1>
-		<Icon name="logo" />
 	</header>
 );
 

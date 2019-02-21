@@ -16,10 +16,10 @@ class App extends React.Component {
 	render() {
 		return(
 			<div className="container">
-				<Header name="Eats"/>
+				<Header name="Eats Diner" />
 				<Main />
 				<Newsletter button="Subscribe" id="s" label="Join our newsletter" />
-				<div className="align-center gutter">
+				<div className="align-center">
 					<Link to='/about'>Learn about our history</Link>
 				</div>
 			</div>

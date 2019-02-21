@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 
 class Post extends Component {
+	constructor() {
+		super();
+		this.state = {
+			data: [],
+		};
+	}
 
 	render() {
 		return (
-			<div>
-				This is post about page.
+			<div className="gutter">
+				<h1 className="txt-h2">POST</h1>
 			</div>
 		);
 	}

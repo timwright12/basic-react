@@ -3,15 +3,15 @@
 }
 
 .gutter {
-	padding: 1em;
+	padding: 1rem;
 }
 
 .gutter--half {
-	padding: .5em;
+	padding: .5rem;
 }
 
 .container {
-	max-width: 44em;
+	max-width: 37.5rem;
 	margin: auto;
-	padding: 1em;
+	padding: 1rem;
 }

@@ -1,17 +1,20 @@
 .form__input {
-	border: 1px solid #ccc;
-	padding: .5em;
+	border: 1px solid var(--c-tertiary);
+	font-size: 1rem;
+	max-width: 240px;
+	padding: .75rem;
 }
 
 .form__label {
-	color: #999;
+	color: var(--c-secondary);
+	cursor: pointer;
 	display: block;
 }
 
 .form__button {
-	background: red;
-	border: 1px solid red;
-	color: white;
+	background: var(--c-branding);
+	border: 1px solid var(--c-branding);
+	color: var(--c-base);
 	cursor: pointer;
-	padding: .5em 1em;
+	padding: .75rem;
 }

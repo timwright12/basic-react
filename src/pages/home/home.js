@@ -28,7 +28,7 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div className="output">
+			<div className="output gutter">
 				{this.state.data}
 			</div>
 		);

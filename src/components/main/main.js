@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
 
 // Templates
 import Home from '../../pages/home/home';
@@ -12,8 +12,8 @@ class Main extends Component {
 		return (
 			<main className="main" role="main">
 				<Switch>
-					<Route exact path='/' component={Home}/>
-					<Route path='/about' component={About}/>
+					<Route exact path='/' component={Home} />
+					<Route path='/about' component={About} />
 				</Switch>
 			</main>
 		);

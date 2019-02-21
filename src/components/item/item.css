@@ -1,9 +1,19 @@
 .item {
-	outline: 1px solid red;
+	border-top: 1px solid var(--c-tertiary);
+	font-size: 1.125rem;
+}
+
+.item:last-of-type {
+	border-bottom: 1px solid var(--c-tertiary);
 }
 
 .item__summary {
 	cursor: pointer;
+}
+
+.item__summary::-webkit-details-marker {
+  color: var(--c-action);
+  margin-right: 0.625rem;
 }
 
 .item__panel {

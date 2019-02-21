@@ -1,5 +1,8 @@
 :root {
 	--c-base: #fff;
-	--c-primary: #000;
-	--c-secondary: #c00;
+	--c-primary: #333333;
+	--c-secondary: #767676;
+	--c-tertiary: #CCC;
+	--c-action: #CC4B00;
+	--c-branding: #004EAE;
 }
